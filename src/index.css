@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.new_btn {
+  position: relative;
+}
+
+.new_btn::before {
+  content: "";
+  height: 6px;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transition: 0.3s;
+}
+
+.new_btn:hover::before {
+  width: 100%;
+}
+
+.nav_btn {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  width: 8px; 
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white; 
+  border-radius: 8px; 
+}
+
+.content_section::-webkit-scrollbar {
+  width: 15px; 
+}
+
+.content_section::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.content_section::-webkit-scrollbar-thumb {
+  background-color: #ffa500; 
+  border-radius: 10px; 
+  border: 2px solid transparent; 
+}
+
+.content_section {
+  scrollbar-width: thin;
+  scrollbar-color: #ffa500 transparent; 
+}
+
+.history_content {
+  scrollbar-width: thin;
+    scrollbar-color: #1d4ed8 transparent; 
+}
+
+.history_content::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; 
+}
+
+.history_content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.history_content::-webkit-scrollbar-thumb {
+  background-color: #1d4ed8; 
+  border-radius: 8px; 
+}
+
+.history_content::-webkit-scrollbar-thumb:hover {
+  background-color: #2563eb; 
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 8px;
+  scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #4a5568; 
+  border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #2d3748; 
+}
+
+.card {
+  min-width: 200px;
+  background: #1a202c;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #e2e8f0;
+}
+
+.photo_places {
+  overflow-x: auto;
+}
+
+.photo_places::-webkit-scrollbar {
+  display: none;
+}
+
+.photo_gal_box::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.explore_som_taxi::-webkit-scrollbar {
+  display: none;
+}
+.check_vehicle_home::-webkit-scrollbar {
+  display: none;
+}
+
+
+.photo_gal_box::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.scroll_no::-webkit-scrollbar {
+  display: none;
+}
+
+
+@media(max-width : 827px) {
+  .nav_btn {
+    display: block;
+  }
+}

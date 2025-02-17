@@ -1,0 +1,150 @@
+{
+    "photoshoot_gallery": [
+        {
+            "id": 1,
+            "im_src": "https://www.masalabox.co.in/wp-content/uploads/2019/09/somnath-temple.jpeg",
+            "description" : "Somnath main temple"
+        },
+        {
+            "id": 2,
+            "im_src": "https://cdn.dollsofindia.com/images/p/photography/somnath-temple-RO59_l.jpg",
+            "description" : "Somnath main temple night view"
+        },
+        {
+            "id": 3,
+            "im_src": "https://somnath.org/static/img/slider/event-banner-1.png",
+            "description" : "somnath drone view"
+        },
+        {
+            "id": 4,
+            "im_src": "https://oneday.travel/wp-content/uploads/one-day-somnath-sightseeing-tour-package-by-cab-header.jpg",
+            "description" : "From sea shore"
+        },
+        {
+            "id": 5,
+            "im_src": "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/09/Triveni-Ghat.jpg",
+            "description" : "Triveni Sangam"
+        },
+        {
+            "id": 6,
+            "im_src": "https://avathioutdoors.gumlet.io/travelGuide/dev/somnath_P9299.jpg",
+            "description" : "Bann Ganga"
+        },
+        {
+            "id": 7,
+            "im_src": "https://www.ftd.travel/upload/attraction_image/2013-01-26-06-10-38triveni-ghat-somnath.jpg",
+            "description" : "Triveni ghat"
+        },
+        {
+            "id": 8,
+            "im_src": "https://www.jansatta.com/wp-content/uploads/2023/11/Somnath-Temple.jpg?w=440",
+            "description" : "Somnath old"
+        },
+        {
+            "id": 9,
+            "im_src": "https://ddnews.gov.in/wp-content/uploads/2024/10/20231104268L-scaled.jpg",
+            "description" : "Raam Mandir"
+        },
+        {
+            "id": 10,
+            "im_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXyXfWb1YdnnPr1snO_yw6E7oWEn4TySUK8g&s",
+            "description" : "Geeta Mandir"
+        }
+    ],
+    "photo_places": [
+        {
+            "id": 1,
+            "imgSrc": "https://i.pinimg.com/736x/ab/59/3a/ab593a36f739f0771ff581bdd194c3d9.jpg",
+            "title": "Somnath Beach, seshore of history",
+            "description": "No Extra cost, closes after 7pm"
+        },
+        {
+            "id": 2,
+            "imgSrc": "https://somnath.org/static/img/van%20mahotshav.jpg",
+            "title": "Harihar van, Place of Knowledge",
+            "description": "Huge garden with intresting places"
+        },
+        {
+            "id": 3,
+            "imgSrc": "https://api.somnath.org/upload/CoverPhotos/DJI_0136_Q88aaGD.JPG",
+            "title": "Great Architecture and backgrounds",
+            "description": "Serene forest landscape."
+        },
+        {
+            "id": 4,
+            "imgSrc": "https://holydham.com/wp-content/uploads/2013/02/Bhalka-tirtha-6.jpg",
+            "title": "Bhalka tirth, place of Krishna",
+            "description": "Peacefull and gorgeous"
+        },
+        {
+            "id": 5,
+            "imgSrc": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpdZsHkTpq4j9b3r-i_zMBlezDC-jh4IGCCF4YiC3BkSNsZRKgqhzXjinkxFXkZZ3e5GQ0tKQ89HDguVlK0YFcpI1XA0JXuFw3VXcRtsu7c6xtp9yDecTidw2vqz4Hz3Y96JoHmm9qopA/s640/IMG_1325.JPG",
+            "title": "Geeta Mandir, A temple for Knowledge",
+            "description": "Peacefull environment"
+        }
+    ],
+    "explore_somnath_taxis": [
+        {
+            "id": 1,
+            "img_src": "../img/explore_somnath_taxi/img1.png",
+            "taxi_rate": "Mahindra Bolero",
+            "taxi_contact": "+91 1234567893"
+        },
+        {
+            "id": 2,
+            "img_src": "../img/explore_somnath_taxi/img1.png",
+            "taxi_rate": "Maruti Suzuki Ertiga",
+            "taxi_contact": "+91 1234567893"
+        },
+        {
+            "id": 3,
+            "img_src": "../img/explore_somnath_taxi/img1.png",
+            "taxi_rate": "Maruti Suzuki Dezire",
+            "taxi_contact": "+91 1234567893"
+        },
+        {
+            "id": 4,
+            "img_src": "../img/explore_somnath_taxi/img1.png",
+            "taxi_rate": "Honda Amaze",
+            "taxi_contact": "+91 1234567893"
+        },
+        {
+            "id": 5,
+            "img_src": "../img/explore_somnath_taxi/img1.png",
+            "taxi_rate": "Hyundai Aura",
+            "taxi_contact": "+91 1234567893"
+        }
+    ],
+    "go_home_services": [
+        {
+            "id": 1,
+            "img": "../img/explore_somnath_taxi/img1.png",
+            "trave_agency_name": "Mahasagar Travels",
+            "contact": "+91 2323567464"
+        },
+        {
+            "id": 2,
+            "img": "../img/explore_somnath_taxi/img1.png",
+            "trave_agency_name": "Madhuram Travels",
+            "contact": "+91 2323567464"
+        },
+        {
+            "id": 3,
+            "img": "../img/explore_somnath_taxi/img1.png",
+            "trave_agency_name": "Jeet Travels",
+            "contact": "+91 2323567464"
+        },
+        {
+            "id": 4,
+            "img": "../img/explore_somnath_taxi/img1.png",
+            "trave_agency_name": "Patel Travels",
+            "contact": "+91 2323567464"
+        },
+        {
+            "id": 5,
+            "img": "../img/explore_somnath_taxi/img1.png",
+            "trave_agency_name": "Laxmi Travels",
+            "contact": "+91 2323567464"
+        }
+    ]
+}
